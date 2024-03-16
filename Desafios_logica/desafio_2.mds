@@ -1,0 +1,29 @@
+## Calculadora de partidas rankeadas
+
+### O que deve ser utilizado
+
+-Variáveis
+-Operadores
+-Laços de repetição
+-Estruturas de decisões
+-Funções
+
+### Objetivos
+
+Crie uma função que recebe como parâmetro a quantidade de vitórias e derrotas de um jogador, 
+despois disso retorne o resultado para uma variável, o saldo de **Rankeadas** deve ser feito através do cálculo *(vitórias - derrotas)*
+
+
+Vitórias as 'V'
+
+V < 10 = 'Ferro'
+11 < V > 20 = 'Bronze'
+21 < V > 50 = 'Prata'
+51 < V > 80 = 'Ouro'
+81 < V > 90 = 'Diamante'
+91 < V > 100 = 'Lendário'
+V >= 101 = 'Imortal'
+
+## Saída
+Ao final deve se exibir uma mensagem:
+"O Herói tem saldo de **{saldoVitorias}** está no nível de **{nivel}** "
